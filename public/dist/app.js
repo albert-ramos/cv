@@ -2043,18 +2043,45 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _partials_terminal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/terminal */ "./resources/js/app/pages/partials/terminal.vue");
 //
 //
 //
 //
 //
 //
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    Terminal: _partials_terminal__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
+  components: {}
 });
 
 /***/ }),
@@ -38830,14 +38857,108 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "container mx-auto px-4" },
-    [_c("terminal")],
-    1
-  )
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "home" } }, [
+      _c("div", { staticClass: "container mx-auto py-4 w-1/2" }, [
+        _c("div", { staticClass: "header" }, [
+          _c("h1", { staticClass: "text-6xl py-2" }, [
+            _vm._v("I'm Albert Ramos")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-4xl py-2" }, [
+            _vm._v("I'm a Full Stack Developer")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "text-2xl py-2" }, [
+            _vm._v(
+              "If you want to know more about me there you have some buttons!"
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "shortcuts mt-10 pt-5" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-base inline-block m-2",
+              attrs: { href: "about" }
+            },
+            [
+              _c("span", { staticClass: "block" }, [_vm._v("##############")]),
+              _vm._v(" "),
+              _c("span", { staticClass: "block" }, [_vm._v("## About me ##")]),
+              _vm._v(" "),
+              _c("span", { staticClass: "block" }, [_vm._v("##############")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-base inline-block m-2",
+              attrs: { href: "experience" }
+            },
+            [
+              _c("span", { staticClass: "block" }, [
+                _vm._v("###################")
+              ]),
+              _vm._v(" "),
+              _c("span", { staticClass: "block" }, [
+                _vm._v("## My experience ##")
+              ]),
+              _vm._v(" "),
+              _c("span", { staticClass: "block" }, [
+                _vm._v("###################")
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-base inline-block m-2",
+              attrs: {
+                href: "https://github.com/albert-ramos",
+                target: "_blank"
+              }
+            },
+            [
+              _c("span", { staticClass: "block" }, [_vm._v("############")]),
+              _vm._v(" "),
+              _c("span", { staticClass: "block" }, [_vm._v("## Github ##")]),
+              _vm._v(" "),
+              _c("span", { staticClass: "block" }, [_vm._v("############")])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-base inline-block m-2",
+              attrs: {
+                href: "https://www.linkedin.com/in/albert-ramos/",
+                target: "_blank"
+              }
+            },
+            [
+              _c("span", { staticClass: "block" }, [_vm._v("##############")]),
+              _vm._v(" "),
+              _c("span", { staticClass: "block" }, [_vm._v("## LinkedIn ##")]),
+              _vm._v(" "),
+              _c("span", { staticClass: "block" }, [_vm._v("##############")])
+            ]
+          )
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 

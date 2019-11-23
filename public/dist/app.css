@@ -46838,6 +46838,11 @@ video {
 }
 body {
   background-color: #222;
+  color: white;
+}
+
+#home {
+  font-family: monospace;
 }
 
 #terminal {
