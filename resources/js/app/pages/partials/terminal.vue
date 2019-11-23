@@ -35,15 +35,12 @@
 
         created() {
             const self = this;
-            console.log("erminal created");
             this.$nextTick(function () {
                 
                 let typed = new Typed('#terminal-command', {
                     strings: [this.cmd],
                     typeSpeed: 50
                 });
-
-                console.log(typed);
 
                 self.showTerminalBody(2000);
             })

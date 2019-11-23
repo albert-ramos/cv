@@ -1,6 +1,6 @@
 <template>
     <footer class="container mx-auto">
-        <div class="shortcuts mt-10 pt-5 mx-auto w-3/4">
+        <div id="shortcuts" class="shortcuts title-to-animate mt-10 pt-5 mx-auto w-3/4">
             <a href="/about" class="text-base inline-block m-2">
                 <span class="block">##############</span>
                 <span class="block">## About me ##</span>
@@ -28,5 +28,27 @@
 </template>
 
 <script>
-export default { }
+import UtilsHelper from '../helpers/utils'
+
+export default {
+
+
+  data() {
+      return {
+          elementToAnimate: 'shortcuts'
+      }
+  },
+
+  created() {
+      const self = this;
+      this.$nextTick(function() {
+          UtilsHelper.triggerTransition(
+              document.querySelector(`#${self.elementToAnimate}`),
+              2000
+          )
+      })
+    }
+
+
+ }
 </script>

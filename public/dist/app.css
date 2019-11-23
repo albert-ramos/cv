@@ -46863,7 +46863,7 @@ footer .shortcuts {
 }
 
 #terminal #ls li:hover {
-  border-color: white;
+  border-color: #868686;
 }
 
 #terminal #terminal-body {
@@ -46873,5 +46873,17 @@ footer .shortcuts {
 }
 
 #terminal #terminal-body.active {
+  opacity: 1;
+}
+
+.title-to-animate {
+  padding-top: 3rem;
+  opacity: 0;
+}
+
+.title-to-animate.show {
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  padding-top: 0;
   opacity: 1;
 }

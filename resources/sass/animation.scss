@@ -1,0 +1,15 @@
+.title-to-animate {
+    padding-top: 3rem;
+    opacity: 0;
+
+    &.show {
+        -webkit-transition: all 200ms ease-out;
+        -moz-transition: all 200ms ease-out;
+        -ms-transition: all 200ms ease-out;
+        -o-transition: all 200ms ease-out;
+        transition: all 200ms ease-out;
+
+        padding-top: 0;
+        opacity: 1;
+    }
+}

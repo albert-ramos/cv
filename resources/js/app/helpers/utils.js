@@ -16,6 +16,13 @@ const UtilsHelper = {
             .replace(/-+/g, '-'); // collapse dashes
     
         return str;
+    },
+
+
+    triggerTransition: function(el, time) {
+        setTimeout(function() {
+            el.classList.add('show')
+        }, time)
     }
 }
 
