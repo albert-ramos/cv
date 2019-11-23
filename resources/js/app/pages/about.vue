@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto px-4">
+    <div>
         <terminal v-bind:cmd="cmd" 
                     v-bind:template="template" 
                     v-bind:template-data="templateData"></terminal>

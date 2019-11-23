@@ -46841,6 +46841,10 @@ body {
   color: white;
 }
 
+footer .shortcuts {
+  font-family: monospace;
+}
+
 #home {
   font-family: monospace;
 }

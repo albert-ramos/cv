@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="container mx-auto">
     
     <app-header></app-header>
     
@@ -9,17 +9,21 @@
       </transition>
     </div>
     
+    <app-footer></app-footer>
+
   </div>
 
 </template>
 
 <script>
 import AppHeader from './header.vue'
+import AppFooter from './footer.vue'
 
 export default {
   name: 'AppLayout',
   components: {
-    AppHeader
+    AppHeader,
+    AppFooter
   }
 }
 </script>
