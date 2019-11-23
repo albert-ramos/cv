@@ -38991,15 +38991,15 @@ var staticRenderFns = [
       { staticClass: "mx-auto mt-10 w-3/4", attrs: { id: "home" } },
       [
         _c("div", { staticClass: "header" }, [
-          _c("h1", { staticClass: "text-6xl py-2" }, [
+          _c("h1", { staticClass: "text-6xl py-2 title-page" }, [
             _vm._v("I'm Albert Ramos")
           ]),
           _vm._v(" "),
-          _c("p", { staticClass: "text-4xl py-2" }, [
+          _c("p", { staticClass: "text-4xl py-2 title-position" }, [
             _vm._v("I'm a Full Stack Developer")
           ]),
           _vm._v(" "),
-          _c("p", { staticClass: "text-2xl py-2" }, [
+          _c("p", { staticClass: "text-2xl py-2 title-info" }, [
             _vm._v(
               "If you want to know more about me there you have some buttons!"
             )
