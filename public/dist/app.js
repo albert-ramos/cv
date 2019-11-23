@@ -38682,7 +38682,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass: "text-base inline-block m-2",
-            attrs: { href: "about" }
+            attrs: { href: "/about" }
           },
           [
             _c("span", { staticClass: "block" }, [_vm._v("##############")]),
@@ -38697,7 +38697,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass: "text-base inline-block m-2",
-            attrs: { href: "experience" }
+            attrs: { href: "/experience" }
           },
           [
             _c("span", { staticClass: "block" }, [
