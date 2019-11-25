@@ -11,15 +11,12 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('app');
-// });
-
-
 // Route::get('/{route:.*}/', function ()  {
 //     return view('app');
 // });
 
-Route::fallback(function() {
-    return view('app');
+Route::group(['scheme' => config('app.httpScheme')], function () {
+    Route::fallback(function() {
+        return view('app');
+    });
 });

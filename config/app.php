@@ -124,6 +124,8 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
+    'httpScheme' => env('APP_HTTP_SCHEME', 'http'),
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
