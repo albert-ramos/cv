@@ -23,6 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // App config http protocol
+        \URL::forceScheme(config('app.httpScheme'));
     }
 }

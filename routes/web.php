@@ -15,8 +15,8 @@
 //     return view('app');
 // });
 
-Route::group(['scheme' => config('app.httpScheme')], function () {
+Route::group(['middleware' => ['web']], function () {
     Route::fallback(function() {
         return view('app');
-    });
+    })->name('app.fallback');
 });
